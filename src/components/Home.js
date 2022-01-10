@@ -1,5 +1,9 @@
+import React, { useEffect } from "react";
 
 const Home = (props) => {
+  useEffect(() => {
+    document.title = `Cookies`;
+  });
   return (
     <div className="home">
       <h1>Cookies and Beyond</h1>
